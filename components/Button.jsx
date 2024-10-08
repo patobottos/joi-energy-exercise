@@ -15,7 +15,8 @@ const Button = ({onClick, children}) => {
               bg-blue
               white
               bold
-              w-3
+              w3
+              ht3
             "
             onClick={onClick}
         >
