@@ -71,6 +71,11 @@
 .max-width-3{ max-width: 48rem }
 .max-width-4{ max-width: 64rem }
 
+.w-1{width: 4rem}
+.w-2{width: 6rem}
+.w-3{width: 8rem}
+
+
 .border-box{ box-sizing:border-box }
 
 .align-baseline{ vertical-align:baseline }
