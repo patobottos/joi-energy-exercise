@@ -71,10 +71,14 @@
 .max-width-3{ max-width: 48rem }
 .max-width-4{ max-width: 64rem }
 
-.w-1{width: 4rem}
-.w-2{width: 6rem}
-.w-3{width: 8rem}
+.w1{width: 4rem}
+.w2{width: 6rem}
+.w3{width: 8rem}
 
+.ht1{height: 1rem}
+.ht2{height: 2rem}
+.ht3{height: 3rem}
+.ht4{height: 4rem}
 
 .border-box{ box-sizing:border-box }
 
