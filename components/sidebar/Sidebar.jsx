@@ -1,11 +1,5 @@
 import React from "react";
-
-const DeviceSection = ({ title, usage }) => (
-  <div className="shadow-2 roundedMore bg-super-light-grey mb1">
-    <p className="darkgray pl2 pt1 pb1">{title}</p>
-    <p className="h5 darkgray bold pl2 pb1 pt1 bg-very-light-grey">{usage}</p>
-  </div>
-);
+import DeviceSection from "./DeviceSection";
 
 const SummarySection = ({ summary, subtitle }) => (
   <>
@@ -27,6 +21,7 @@ export const Sidebar = () => (
       <DeviceSection title="Smart TV" usage="0.1276kW" />
       <DeviceSection title="Diffuser" usage="0.0078kW" />
       <DeviceSection title="Refrigerator" usage="0.0923kW" />
+      
     </section>
   </>
 );

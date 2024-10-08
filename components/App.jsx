@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Sidebar } from "./Sidebar.jsx";
+import { Sidebar } from "./sidebar/Sidebar.jsx";
 import { EnergyConsumption } from "./EnergyConsumption.jsx";
 import { getReadings } from "../utils/reading";
 
