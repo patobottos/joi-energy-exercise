@@ -1,12 +1,7 @@
 import React from "react";
 import DeviceSection from "./DeviceSection";
+import SummarySection from "./SummarySection";
 
-const SummarySection = ({ summary, subtitle }) => (
-  <>
-    <h2 className="h2 greyBlue">{summary}</h2>
-    <p className="darkgray mb2">{subtitle}</p>
-  </>
-);
 export const Sidebar = () => (
   <>
     <SummarySection summary="⚡️ 1.4kW" subtitle="Power draw" />
@@ -20,8 +15,7 @@ export const Sidebar = () => (
       <DeviceSection title="Humidifer" usage="0.0518kW" />
       <DeviceSection title="Smart TV" usage="0.1276kW" />
       <DeviceSection title="Diffuser" usage="0.0078kW" />
-      <DeviceSection title="Refrigerator" usage="0.0923kW" />
-      
+      <DeviceSection title="Refrigerator" usage="0.0923kW" />      
     </section>
   </>
 );
