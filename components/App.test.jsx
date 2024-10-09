@@ -12,3 +12,4 @@ describe("App", () => {
     expect(heading).toHaveTextContent("Energy consumption");
   });
 });
+ 
